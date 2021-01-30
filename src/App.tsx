@@ -1,15 +1,10 @@
 import React from 'react'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Redirect,
-  Route,
-} from 'react-router-dom'
+import { HashRouter as Router, Switch, Redirect, Route } from 'react-router-dom'
 
 import ScoreCalc from './pages/score-calc'
 
 const App: React.FC = () => (
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router>
     <Switch>
       <Route exact path="/">
         <Redirect to="/score-calc" />
