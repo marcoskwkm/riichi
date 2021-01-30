@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/riichi/static/css/main.ac33c65a.chunk.css",
-    "main.js": "/riichi/static/js/main.99acd391.chunk.js",
-    "main.js.map": "/riichi/static/js/main.99acd391.chunk.js.map",
+    "main.css": "/riichi/static/css/main.27722c2c.chunk.css",
+    "main.js": "/riichi/static/js/main.8456b446.chunk.js",
+    "main.js.map": "/riichi/static/js/main.8456b446.chunk.js.map",
     "runtime-main.js": "/riichi/static/js/runtime-main.2a66a29b.js",
     "runtime-main.js.map": "/riichi/static/js/runtime-main.2a66a29b.js.map",
-    "static/js/2.6813a32a.chunk.js": "/riichi/static/js/2.6813a32a.chunk.js",
-    "static/js/2.6813a32a.chunk.js.map": "/riichi/static/js/2.6813a32a.chunk.js.map",
+    "static/js/2.7f23f583.chunk.js": "/riichi/static/js/2.7f23f583.chunk.js",
+    "static/js/2.7f23f583.chunk.js.map": "/riichi/static/js/2.7f23f583.chunk.js.map",
     "index.html": "/riichi/index.html",
-    "static/css/main.ac33c65a.chunk.css.map": "/riichi/static/css/main.ac33c65a.chunk.css.map",
-    "static/js/2.6813a32a.chunk.js.LICENSE.txt": "/riichi/static/js/2.6813a32a.chunk.js.LICENSE.txt"
+    "static/css/main.27722c2c.chunk.css.map": "/riichi/static/css/main.27722c2c.chunk.css.map",
+    "static/js/2.7f23f583.chunk.js.LICENSE.txt": "/riichi/static/js/2.7f23f583.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2a66a29b.js",
-    "static/js/2.6813a32a.chunk.js",
-    "static/css/main.ac33c65a.chunk.css",
-    "static/js/main.99acd391.chunk.js"
+    "static/js/2.7f23f583.chunk.js",
+    "static/css/main.27722c2c.chunk.css",
+    "static/js/main.8456b446.chunk.js"
   ]
 }
