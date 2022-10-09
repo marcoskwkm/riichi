@@ -1,12 +1,10 @@
-import React from 'react'
+import ScoreCalcTrainer from './components/ScoreCalcTrainer'
 
-import ScoreCalcTrainer from '../../components/ScoreCalcTrainer'
-
-const ScoreCalc: React.FC = () => (
-  <div className="h-full min-h-screen p-8 bg-gray-200">
+const ScoreCalcPage: React.FC = () => (
+  <div className="h-full min-h-screen bg-gray-200 p-8">
     <ScoreCalcTrainer />
     <div className="mt-8">
-      <p className="font-bold text-lg">How to calculate hand scores</p>
+      <p className="text-lg font-bold">How to calculate hand scores</p>
       <p className="mt-2 font-bold">Basic score calculation</p>
       <p>
         Mangan: 2000, Haneman: 3000, Baiman: 4000, Sanbaiman: 6000, Yakuman:
@@ -34,4 +32,4 @@ const ScoreCalc: React.FC = () => (
   </div>
 )
 
-export default ScoreCalc
+export default ScoreCalcPage

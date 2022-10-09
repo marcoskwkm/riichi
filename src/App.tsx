@@ -1,7 +1,7 @@
-import React from 'react'
 import { HashRouter as Router, Switch, Redirect, Route } from 'react-router-dom'
 
-import ScoreCalc from './pages/score-calc'
+import ScoreCalcPage from './pages/score-calc'
+import ScoreTablePage from './pages/score-table'
 
 const App: React.FC = () => (
   <Router>
@@ -10,7 +10,10 @@ const App: React.FC = () => (
         <Redirect to="/score-calc" />
       </Route>
       <Route path="/score-calc">
-        <ScoreCalc />
+        <ScoreCalcPage />
+      </Route>
+      <Route path="/score-table">
+        <ScoreTablePage />
       </Route>
     </Switch>
   </Router>
