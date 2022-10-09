@@ -1,20 +1,13 @@
 {
   "files": {
-    "main.css": "/riichi/static/css/main.5f57502e.chunk.css",
-    "main.js": "/riichi/static/js/main.47d47c86.chunk.js",
-    "main.js.map": "/riichi/static/js/main.47d47c86.chunk.js.map",
-    "runtime-main.js": "/riichi/static/js/runtime-main.2a66a29b.js",
-    "runtime-main.js.map": "/riichi/static/js/runtime-main.2a66a29b.js.map",
-    "static/js/2.475bca76.chunk.js": "/riichi/static/js/2.475bca76.chunk.js",
-    "static/js/2.475bca76.chunk.js.map": "/riichi/static/js/2.475bca76.chunk.js.map",
-    "index.html": "/riichi/index.html",
-    "static/css/main.5f57502e.chunk.css.map": "/riichi/static/css/main.5f57502e.chunk.css.map",
-    "static/js/2.475bca76.chunk.js.LICENSE.txt": "/riichi/static/js/2.475bca76.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.6796d0de.css",
+    "main.js": "/static/js/main.3dac0f5b.js",
+    "index.html": "/index.html",
+    "main.6796d0de.css.map": "/static/css/main.6796d0de.css.map",
+    "main.3dac0f5b.js.map": "/static/js/main.3dac0f5b.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.2a66a29b.js",
-    "static/js/2.475bca76.chunk.js",
-    "static/css/main.5f57502e.chunk.css",
-    "static/js/main.47d47c86.chunk.js"
+    "static/css/main.6796d0de.css",
+    "static/js/main.3dac0f5b.js"
   ]
 }
