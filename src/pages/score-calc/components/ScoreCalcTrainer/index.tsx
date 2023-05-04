@@ -1,3 +1,4 @@
+import classNames from 'classnames'
 import React, { useEffect, useState } from 'react'
 
 import ScoreCalcPrompt from '../ScoreCalcPrompt'
@@ -28,6 +29,8 @@ const ScoreCalcTrainer: React.FC = () => {
   const [guess, setGuess] = useState<string>('')
   const [commonOnly, setCommonOnly] = useState<boolean>(true)
   const [lowHanOnly, setLowHanOnly] = useState<boolean>(true)
+  const [isCorrect, setIsCorrect] = useState<boolean>(false)
+  const [isWrong, setIsWrong] = useState<boolean>(false)
 
   useEffect(() => {
     if (
@@ -39,6 +42,9 @@ const ScoreCalcTrainer: React.FC = () => {
   }, [commonOnly, lowHanOnly, hand])
 
   const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    setIsCorrect(false)
+    setIsWrong(false)
+
     if (event.key !== 'Enter') {
       return
     }
@@ -52,7 +58,9 @@ const ScoreCalcTrainer: React.FC = () => {
     if (sanitizedScoreString === hand?.score) {
       setHand(getRandomHand({ common: commonOnly }))
       setGuess('')
+      setIsCorrect(true)
     } else {
+      setIsWrong(true)
       console.log('Wrong. Answer:', hand?.score)
     }
   }
@@ -81,7 +89,13 @@ const ScoreCalcTrainer: React.FC = () => {
         </label>
       </div>
       <input
-        className="mt-4 w-56 rounded border border-gray-400 px-1 text-center"
+        className={classNames(
+          'mt-4 w-56 rounded border border-gray-400 px-1 text-center',
+          {
+            'ring ring-red-400': isWrong,
+            'ring ring-green-400': isCorrect,
+          }
+        )}
         value={guess}
         onChange={(event) => setGuess(event.target.value)}
         onKeyDown={handleKeyDown}
