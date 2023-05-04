@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import ScoreCalcPrompt from '../ScoreCalcPrompt'
 import { ALL_SCORES } from './constants'
 
-const isCommonHand = (hand: HandScore) => !hand.fu || hand.fu <= 40
+const isCommonHand = (hand: HandScore) => !hand.fu || hand.fu <= 50
 
 const getRandomHand = (options: { common?: boolean } = {}) => {
   const pool = options.common
@@ -48,10 +48,10 @@ const ScoreCalcTrainer: React.FC = () => {
           checked={commonOnly}
           onChange={(event) => setCommonOnly(event.target.checked)}
         />
-        40 fu or less only
+        50 fu or less only
       </label>
       <input
-        className="mt-4 w-56 px-1 border border-gray-400 rounded text-center"
+        className="mt-4 w-56 rounded border border-gray-400 px-1 text-center"
         value={guess}
         onChange={(event) => setGuess(event.target.value)}
         onKeyDown={handleKeyDown}
