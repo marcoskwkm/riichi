@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/riichi/static/css/main.6796d0de.css",
-    "main.js": "/riichi/static/js/main.3dac0f5b.js",
+    "main.css": "/riichi/static/css/main.dff22c76.css",
+    "main.js": "/riichi/static/js/main.5608c11d.js",
     "index.html": "/riichi/index.html",
-    "main.6796d0de.css.map": "/riichi/static/css/main.6796d0de.css.map",
-    "main.3dac0f5b.js.map": "/riichi/static/js/main.3dac0f5b.js.map"
+    "main.dff22c76.css.map": "/riichi/static/css/main.dff22c76.css.map",
+    "main.5608c11d.js.map": "/riichi/static/js/main.5608c11d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6796d0de.css",
-    "static/js/main.3dac0f5b.js"
+    "static/css/main.dff22c76.css",
+    "static/js/main.5608c11d.js"
   ]
 }
