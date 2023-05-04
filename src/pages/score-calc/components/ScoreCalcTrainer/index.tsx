@@ -43,7 +43,13 @@ const ScoreCalcTrainer: React.FC = () => {
       return
     }
 
-    if (guess === hand?.score) {
+    // Allows space, comma, forward slash and pipe as separators
+    const sanitizedScoreString = guess
+      .split(/[ ,/|]/)
+      .filter((x) => !!x)
+      .join('/')
+
+    if (sanitizedScoreString === hand?.score) {
       setHand(getRandomHand({ common: commonOnly }))
       setGuess('')
     } else {
